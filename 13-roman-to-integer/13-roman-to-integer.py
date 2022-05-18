@@ -8,7 +8,6 @@ class Solution:
             num+=roman[s[i:i+2]]
             i+=2
          else:
-            #print(i)
             num+=roman[s[i]]
             i+=1
       return num
